@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<meta charset='utf-8'>
+
+<h1>Looks like somebody needs an upgrade!</h1>
+
+<p>You try to run some of my GameBoy creations - but to your dismay, you only see the following message written on the screen, in one form or another:</p>
+
+<p><i>You are using an inaccurate or unsupported emulator. Refer to the following site for further information on emulation accuracy: zzazzdzz.github.io/emu.</i></p>
+
+<p>This means you're using an old or buggy emulator, which incorrectly emulates certain obscure features of the GameBoy hardware. A typical GB game would never require these features to work perfectly - that's why emulators, especially ones designed with performance and speed in mind, didn't usually bother to implement such intricate details. However, my publications, especially ones related to glitching and hacking, make use of those features, and require these to function. To get them working, download a modern emulator:</p>
+
+<ul>
+    <li><a href='https://sourceforge.net/projects/vbam/'>VBA-M</a> if you really love good old VisualBoyAdvance and want to stick with it.</li>
+    <li><a href='http://bgb.bircd.org/'>BGB</a> if you need powerful debugging tools and link cable support.</li>
+    <li><a href='https://github.com/TASVideos/BizHawk/releases/'>Bizhawk</a> if you need TAS features and Lua scripting.</a></li>
+    <li>If you're on a mobile device, you're out of luck. <a href='https://my-oldboy-gbc-emulator.en.aptoide.com/'>MyOldboy</a> is known to be mostly accurate, but it still has several problems.</li>
+</ul>
+
+<h1>Which emulators are bad?</h1>
+
+<ul>
+    <li><b>The most notable offender in terms of emulation accuracy is the base fork of VisualBoyAdvance</b>. This is a big one - it has become the Windows XP of emulators. At the time of its release in 2001, it was extremely innovative, implementing features that other emulators rarely had back then. It quickly became the best choice for emulating GB, GBC and GBA games, to the point that people are still using it to this date - almost 17 years ago at the time of writing this! The main branch of VBA was discontinued in 2004, with the latest version being 1.8.0 - this almost 14-year-old piece of software should be abandoned by now!</li>
+    <li>Emulators designed for embedded devices are likely to be inaccurate, since they were primarily designed to play commercial games, where accuracy isn't a big problem. The 3DS Virtual Console is particularly known for its problems. Some emulators for mobile devices, or homebrew emulators for consoles like Nintendo Wii or DS, are also likely to have issues - they were optimized mostly for speed, not accuracy.</li>
+    <li>Every emulator released before 2005 is pretty much guaranteed to have accuracy issues. At the time, a lot of things were still unknown about the GameBoy hardware. People with thorough understanding of the GB internals would rather <a href='https://www.youtube.com/watch?v=JQJr1RZbSd8'>stick to the demoscene</a> back then.</li>
+</ul>
+
+<h1>How to disable or skip this message?</h1>
+
+<p><b>You can't</b>. Get a better emulator!</p>
+
+<p>If you understand the consequences of ignoring emulation accuracy, you can disable the check by patching it out. Failing the check will send the CPU into an infinite loop (<i>jr $</i>) - just NOP out this loop to skip the message. This intentionally requires basic reverse-engineering knowledge - it's a simple idiot test to make sure you know what you're doing.</p>
