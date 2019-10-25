@@ -40,13 +40,13 @@
 <h1>Which emulators are bad?</h1>
 
 <ul>
-    <li><b>The most notable offender in terms of emulation accuracy is the base fork of VisualBoyAdvance</b>. This is a big one - it has become the Windows XP of emulators. At the time of its release in 2001, it was extremely innovative, implementing features that other emulators rarely had back then. It quickly became the best choice for emulating GB, GBC and GBA games, to the point that people are still using it to this date - almost 17 years ago at the time of writing this! The main branch of VBA was discontinued in 2004, with the latest version being 1.8.0 - this almost 14-year-old piece of software should be abandoned by now!</li>
+    <li><b>The most notable offender in terms of emulation accuracy is the base fork of VisualBoyAdvance</b>. This is a big one - it has become the Windows XP of emulators. At the time of its release in 2001, it was extremely innovative, implementing features that other emulators rarely had back then. It quickly became the best choice for emulating GB, GBC and GBA games, to the point that people are still using it to this date - even though VBA was released almost 18 years ago at the time of writing this! The main branch of VBA was discontinued in 2004, with the latest version being 1.8.0 - this almost 14-year-old piece of software should be abandoned by now!</li>
     <li>Emulators designed for embedded devices are likely to be inaccurate, since they were primarily designed to play commercial games, where accuracy isn't a big problem. The 3DS Virtual Console is particularly known for its problems. Some emulators for mobile devices, or homebrew emulators for consoles like Nintendo Wii or DS, are also likely to have issues - they were optimized mostly for speed, not accuracy.</li>
     <li>Every emulator released before 2005 is pretty much guaranteed to have accuracy issues. At the time, a lot of things were still unknown about the GameBoy hardware. People with thorough understanding of the GB internals would rather <a href='https://www.youtube.com/watch?v=JQJr1RZbSd8'>stick to the demoscene</a> back then.</li>
 </ul>
 
 <h1>How to disable or skip this message?</h1>
 
-<p><b>You can't</b>. Get a better emulator!</p>
+<p><b>You can't</b>. Get a better emulator! It's not like I'm blocking VBA out of spite or something - the game requires high degree of emulation accuracy to function properly. This isn't something that can be "just skipped". Skipping this check would result in game crashes, hard to detect bugs, graphical issues, and would likely send you down the rabbit hole of undefined behavior.</p>
 
-<p>If you understand the consequences of ignoring emulation accuracy, you can disable the check by patching it out. Failing the check will send the CPU into an infinite loop (<i>jr $</i>) - just NOP out this loop to skip the message. This intentionally requires basic reverse-engineering knowledge - it's a simple idiot test to make sure you know what you're doing.</p>
+<p>However, if you understand the consequences of ignoring emulation accuracy, you can disable the check by patching it out. Failing the check will send the CPU into an infinite loop (<i>jr $</i>) - just NOP out this loop to skip the message. This intentionally requires basic reverse-engineering knowledge - it's a simple idiot test to make sure you know what you're doing.</p>
