@@ -1,0 +1,2136 @@
+=== GrassEnergyCard (01) ===
+
+Type: $09
+GFX Ptr: $0000
+Text ID: $07fc [GrassEnergyName]
+Rarity: $00
+Set: $50
+Card ID: $01
+Max HP: 113
+Stage: $4e
+Pre-Evo Name Ptr: $07fd [GrassEnergyDescription]
+
+MOVE 1
+
+Energy: $00 $00 $08 $61 {
+    PSYCHIC: 8
+    COLORLESS: 6
+    UNUSED_POISON: 1
+}
+Atk Name Ptr: $fe00 [???]
+Atk Desc Ptr 1: $0007 [RetreatText]
+Atk Desc Ptr 2: $0250 [DuelistDiscardPileText]
+Damage: 112
+Dmg Type: $4e
+Effect Ptr: 07ff {
+    EFFECTCMDTYPE_PKMN_POWER_TRIGGER :: $0021
+    EFFECTCMDTYPE_AI_SELECTION :: $cd37
+    EFFECTCMDTYPE_DISCARD_ENERGY :: $fe7e
+    EFFECTCMDTYPE_REQUIRE_SELECTION :: $0120
+    (31 invalid entries ignored)
+}
+Engine Flags: $00 $00 $0b
+Anim: $00 [ATK_ANIM_NONE]
+
+MOVE 2
+
+Energy: $00 $08 $00 $50 {
+    WATER: 8
+    COLORLESS: 5
+}
+Atk Name Ptr: $6f03 [???]
+Atk Desc Ptr 1: $014e [ThePkmnCardsInHandAndDeckWereShuffledText]
+Atk Desc Ptr 2: $0008 [WeaknessText]
+Damage: 0
+Dmg Type: $0a
+Effect Ptr: 0123 {
+    (9 invalid entries ignored)
+}
+Engine Flags: $02 $08 $00
+Anim: $04 [ATK_ANIM_HIT_RECOIL]
+
+=== FireEnergyCard (02) ===
+
+Type: $08
+GFX Ptr: $0061
+Text ID: $07fe [FireEnergyName]
+Rarity: $00
+Set: $50
+Card ID: $02
+Max HP: 112
+Stage: $4e
+Pre-Evo Name Ptr: $07ff [FireEnergyDescription]
+
+MOVE 1
+
+Energy: $00 $00 $0b $c2 {
+    PSYCHIC: 11
+    COLORLESS: 12
+    UNUSED_POISON: 2
+}
+Atk Name Ptr: $0000 [NULL]
+Atk Desc Ptr 1: $0008 [WeaknessText]
+Atk Desc Ptr 2: $0350 [UnusedText0350]
+Damage: 111
+Dmg Type: $4e
+Effect Ptr: 0801 {
+    (0 invalid entries ignored)
+}
+Engine Flags: $00 $00 $0a
+Anim: $01 [ATK_ANIM_HIT]
+
+MOVE 2
+
+Energy: $02 $08 $00 $50 {
+    GRASS: 2
+    WATER: 8
+    COLORLESS: 5
+}
+Atk Name Ptr: $6e04 [???]
+Atk Desc Ptr 1: $034e [UnusedText034e]
+Atk Desc Ptr 2: $0008 [WeaknessText]
+Damage: 0
+Dmg Type: $0c
+Effect Ptr: 0184 {
+    (6 invalid entries ignored)
+}
+Engine Flags: $04 $08 $00
+Anim: $05 [ATK_ANIM_HIT_EFFECT]
+
+=== WaterEnergyCard (03) ===
+
+Type: $0b
+GFX Ptr: $00c2
+Text ID: $0800 [WaterEnergyName]
+Rarity: $00
+Set: $50
+Card ID: $03
+Max HP: 111
+Stage: $4e
+Pre-Evo Name Ptr: $0801 [WaterEnergyDescription]
+
+MOVE 1
+
+Energy: $00 $00 $0a $23 {
+    PSYCHIC: 10
+    COLORLESS: 2
+    UNUSED_POISON: 3
+}
+Atk Name Ptr: $0201 [KaleidoscopeDeckName]
+Atk Desc Ptr 1: $0008 [WeaknessText]
+Atk Desc Ptr 2: $0450 [AmyWouldYouLikeToDuelText]
+Damage: 110
+Dmg Type: $4e
+Effect Ptr: 0803 {
+    (0 invalid entries ignored)
+}
+Engine Flags: $00 $00 $0c
+Anim: $01 [ATK_ANIM_HIT]
+
+MOVE 2
+
+Energy: $04 $08 $00 $50 {
+    GRASS: 4
+    WATER: 8
+    COLORLESS: 5
+}
+Atk Name Ptr: $6d05 [???]
+Atk Desc Ptr 1: $054e [RonaldChallengeCup1PlayerWon2Text]
+Atk Desc Ptr 2: $0008 [WeaknessText]
+Damage: 0
+Dmg Type: $0d
+Effect Ptr: 01e5 {
+    EFFECTCMDTYPE_BEFORE_DAMAGE :: $2020
+    (21 invalid entries ignored)
+}
+Engine Flags: $06 $08 $00
+Anim: $06 [ATK_ANIM_THUNDERSHOCK]
+
+=== LightningEnergyCard (04) ===
+
+Type: $0a
+GFX Ptr: $0123
+Text ID: $0802 [LightningEnergyName]
+Rarity: $00
+Set: $50
+Card ID: $04
+Max HP: 110
+Stage: $4e
+Pre-Evo Name Ptr: $0803 [LightningEnergyDescription]
+
+MOVE 1
+
+Energy: $00 $00 $0c $84 {
+    PSYCHIC: 12
+    COLORLESS: 8
+    UNUSED_POISON: 4
+}
+Atk Name Ptr: $0401 [Mail1Part1Text]
+Atk Desc Ptr 1: $0008 [WeaknessText]
+Atk Desc Ptr 2: $0550 [Clerk12ChallengeCupRound3PlayerWon3Text]
+Damage: 109
+Dmg Type: $4e
+Effect Ptr: 0805 {
+    EFFECTCMDTYPE_PKMN_POWER_TRIGGER :: $0021
+    EFFECTCMDTYPE_AI_SELECTION :: $cd37
+    EFFECTCMDTYPE_DISCARD_ENERGY :: $fe7e
+    EFFECTCMDTYPE_REQUIRE_SELECTION :: $0120
+    (29 invalid entries ignored)
+}
+Engine Flags: $00 $00 $0d
+Anim: $01 [ATK_ANIM_HIT]
+
+MOVE 2
+
+Energy: $06 $08 $00 $50 {
+    GRASS: 6
+    WATER: 8
+    COLORLESS: 5
+}
+Atk Name Ptr: $6c06 [???]
+Atk Desc Ptr 1: $074e [Text074e]
+Atk Desc Ptr 2: $0008 [WeaknessText]
+Damage: 0
+Dmg Type: $0e
+Effect Ptr: 0246 {
+    EFFECTCMDTYPE_DISCARD_ENERGY :: $033e
+    EFFECTCMDTYPE_PKMN_POWER_TRIGGER :: $07e0
+    EFFECTCMDTYPE_AI_SELECTION :: $41e0
+    EFFECTCMDTYPE_INITIAL_EFFECT_2 :: $ffe0
+    EFFECTCMDTYPE_INITIAL_EFFECT_1 :: $00ea
+    (106 invalid entries ignored)
+}
+Engine Flags: $08 $08 $01
+Anim: $07 [ATK_ANIM_THUNDER]
+
+=== FightingEnergyCard (05) ===
+
+Type: $0c
+GFX Ptr: $0184
+Text ID: $0804 [FightingEnergyName]
+Rarity: $00
+Set: $50
+Card ID: $05
+Max HP: 109
+Stage: $4e
+Pre-Evo Name Ptr: $0805 [FightingEnergyDescription]
+
+MOVE 1
+
+Energy: $00 $00 $0d $e5 {
+    PSYCHIC: 13
+    COLORLESS: 14
+    UNUSED_POISON: 5
+}
+Atk Name Ptr: $0601 [Text0601]
+Atk Desc Ptr 1: $0008 [WeaknessText]
+Atk Desc Ptr 2: $0650 [Text0650]
+Damage: 108
+Dmg Type: $4e
+Effect Ptr: 0807 {
+    (3 invalid entries ignored)
+}
+Engine Flags: $00 $00 $0e
+Anim: $02 [ATK_ANIM_BIG_HIT]
+
+MOVE 2
+
+Energy: $08 $08 $01 $50 {
+    GRASS: 8
+    WATER: 8
+    PSYCHIC: 1
+    COLORLESS: 5
+}
+Atk Name Ptr: $6b07 [???]
+Atk Desc Ptr 1: $094e [TentacoolName]
+Atk Desc Ptr 2: $0008 [WeaknessText]
+Damage: 0
+Dmg Type: $10
+Effect Ptr: 49e5 {
+    EFFECTCMDTYPE_AI_SELECTION :: $5449
+    (0 invalid entries ignored)
+}
+Engine Flags: $68 $0b $01
+Anim: $c3 [???]
+
+=== PsychicEnergyCard (06) ===
+
+Type: $0d
+GFX Ptr: $01e5
+Text ID: $0806 [PsychicEnergyName]
+Rarity: $00
+Set: $50
+Card ID: $06
+Max HP: 108
+Stage: $4e
+Pre-Evo Name Ptr: $0807 [PsychicEnergyDescription]
+
+MOVE 1
+
+Energy: $00 $00 $0e $46 {
+    PSYCHIC: 14
+    COLORLESS: 4
+    UNUSED_POISON: 6
+}
+Atk Name Ptr: $0802 [LightningEnergyName]
+Atk Desc Ptr 1: $0108 [NoDamageOrEffectDueToBarrierText]
+Atk Desc Ptr 2: $0750 [Text0750]
+Damage: 107
+Dmg Type: $4e
+Effect Ptr: 0809 {
+    EFFECTCMDTYPE_INITIAL_EFFECT_1 :: $1000
+    EFFECTCMDTYPE_PKMN_POWER_TRIGGER :: $21c9
+    (11 invalid entries ignored)
+}
+Engine Flags: $00 $00 $10
+Anim: $49 [ATK_ANIM_UNUSED_49]
+
+MOVE 2
+
+Energy: $68 $0b $01 $00 {
+    FIRE: 6
+    GRASS: 8
+    WATER: 11
+    PSYCHIC: 1
+}
+Atk Name Ptr: $a4c3 [???]
+Atk Desc Ptr 1: $694e [???]
+Atk Desc Ptr 2: $000b [UnusedText000b]
+Damage: 0
+Dmg Type: $10
+Effect Ptr: 4a46 {
+    EFFECTCMDTYPE_INITIAL_EFFECT_1 :: $55a2
+    EFFECTCMDTYPE_INITIAL_EFFECT_2 :: $55b0
+    EFFECTCMDTYPE_DISCARD_ENERGY :: $55b8
+    EFFECTCMDTYPE_AI_SELECTION :: $55b4
+    (0 invalid entries ignored)
+}
+Engine Flags: $6a $0b $02
+Anim: $c4 [???]
+
+=== DoubleColorlessEnergyCard (07) ===
+
+Type: $0e
+GFX Ptr: $0246
+Text ID: $0808 [DoubleColorlessEnergyName]
+Rarity: $01
+Set: $50
+Card ID: $07
+Max HP: 107
+Stage: $4e
+Pre-Evo Name Ptr: $0809 [DoubleColorlessEnergyDescription]
+
+MOVE 1
+
+Energy: $00 $00 $10 $e5 {
+    FIGHTING: 1
+    COLORLESS: 14
+    UNUSED_POISON: 5
+}
+Atk Name Ptr: $6849 [???]
+Atk Desc Ptr 1: $010b [NoDamageOrEffectDueToNShieldText]
+Atk Desc Ptr 2: $c300 [???]
+Damage: 164
+Dmg Type: $4e
+Effect Ptr: 0b69 {
+    (3 invalid entries ignored)
+}
+Engine Flags: $00 $00 $10
+Anim: $4a [ATK_ANIM_SING]
+
+MOVE 2
+
+Energy: $6a $0b $02 $30 {
+    FIRE: 6
+    GRASS: 10
+    WATER: 11
+    PSYCHIC: 2
+    COLORLESS: 3
+}
+Atk Name Ptr: $d5c4 [???]
+Atk Desc Ptr 1: $6b4e [???]
+Atk Desc Ptr 2: $000b [UnusedText000b]
+Damage: 0
+Dmg Type: $10
+Effect Ptr: 4aa7 {
+    EFFECTCMDTYPE_INITIAL_EFFECT_2 :: $5964
+    EFFECTCMDTYPE_BEFORE_DAMAGE :: $5987
+    EFFECTCMDTYPE_DISCARD_ENERGY :: $5981
+    EFFECTCMDTYPE_AI_SELECTION :: $5976
+    (0 invalid entries ignored)
+}
+Engine Flags: $6c $0b $00
+Anim: $c5 [???]
+
+=== ProfessorOakCard (c3) ===
+
+Type: $10
+GFX Ptr: $49e5
+Text ID: $0b68 [ProfessorOakName]
+Rarity: $01
+Set: $00
+Card ID: $c3
+Max HP: 164
+Stage: $4e
+Pre-Evo Name Ptr: $0b69 [ProfessorOakDescription]
+
+MOVE 1
+
+Energy: $00 $00 $10 $46 {
+    FIGHTING: 1
+    COLORLESS: 4
+    UNUSED_POISON: 6
+}
+Atk Name Ptr: $6a4a [???]
+Atk Desc Ptr 1: $020b [FlyinPokemonDeckName]
+Atk Desc Ptr 2: $c430 [???]
+Damage: 213
+Dmg Type: $4e
+Effect Ptr: 0b6b {
+    (3 invalid entries ignored)
+}
+Engine Flags: $00 $00 $10
+Anim: $4a [ATK_ANIM_SING]
+
+MOVE 2
+
+Energy: $6c $0b $00 $00 {
+    FIRE: 6
+    GRASS: 12
+    WATER: 11
+}
+Atk Name Ptr: $41c5 [???]
+Atk Desc Ptr 1: $6d4f [???]
+Atk Desc Ptr 2: $000b [UnusedText000b]
+Damage: 0
+Dmg Type: $10
+Effect Ptr: 4b08 {
+    (0 invalid entries ignored)
+}
+Engine Flags: $6e $0b $01
+Anim: $c6 [???]
+
+=== ImposterProfessorOakCard (c4) ===
+
+Type: $10
+GFX Ptr: $4a46
+Text ID: $0b6a [ImposterProfessorOakName]
+Rarity: $02
+Set: $30
+Card ID: $c4
+Max HP: 213
+Stage: $4e
+Pre-Evo Name Ptr: $0b6b [ImposterProfessorOakDescription]
+
+MOVE 1
+
+Energy: $00 $00 $10 $a7 {
+    FIGHTING: 1
+    COLORLESS: 10
+    UNUSED_POISON: 7
+}
+Atk Name Ptr: $6c4a [???]
+Atk Desc Ptr 1: $000b [UnusedText000b]
+Atk Desc Ptr 2: $c500 [???]
+Damage: 65
+Dmg Type: $4f
+Effect Ptr: 0b6d {
+    (1 invalid entries ignored)
+}
+Engine Flags: $00 $00 $10
+Anim: $4b [ATK_ANIM_LULLABY]
+
+MOVE 2
+
+Energy: $6e $0b $01 $22 {
+    FIRE: 6
+    GRASS: 14
+    WATER: 11
+    PSYCHIC: 1
+    COLORLESS: 2
+    UNUSED_POISON: 2
+}
+Atk Name Ptr: $edc6 [???]
+Atk Desc Ptr 1: $6f4e [???]
+Atk Desc Ptr 2: $000b [UnusedText000b]
+Damage: 0
+Dmg Type: $10
+Effect Ptr: 4b69 {
+    EFFECTCMDTYPE_REQUIRE_SELECTION :: $025f
+    EFFECTCMDTYPE_INITIAL_EFFECT_1 :: $5f74
+    EFFECTCMDTYPE_INITIAL_EFFECT_2 :: $5f7b
+    EFFECTCMDTYPE_BEFORE_DAMAGE :: $5f85
+    EFFECTCMDTYPE_AI_SELECTION :: $5f7f
+    (7 invalid entries ignored)
+}
+Engine Flags: $70 $0b $02
+Anim: $c7 [???]
+
+=== BillCard (c5) ===
+
+Type: $10
+GFX Ptr: $4aa7
+Text ID: $0b6c [BillName]
+Rarity: $00
+Set: $00
+Card ID: $c5
+Max HP: 65
+Stage: $4f
+Pre-Evo Name Ptr: $0b6d [BillDescription]
+
+MOVE 1
+
+Energy: $00 $00 $10 $08 {
+    FIGHTING: 1
+    UNUSED_POISON: 8
+}
+Atk Name Ptr: $6e4b [???]
+Atk Desc Ptr 1: $010b [NoDamageOrEffectDueToNShieldText]
+Atk Desc Ptr 2: $c622 [???]
+Damage: 237
+Dmg Type: $4e
+Effect Ptr: 0b6f {
+    (1 invalid entries ignored)
+}
+Engine Flags: $00 $00 $10
+Anim: $4b [ATK_ANIM_LULLABY]
+
+MOVE 2
+
+Energy: $70 $0b $02 $30 {
+    FIRE: 7
+    WATER: 11
+    PSYCHIC: 2
+    COLORLESS: 3
+}
+Atk Name Ptr: $45c7 [???]
+Atk Desc Ptr 1: $714f [???]
+Atk Desc Ptr 2: $000b [UnusedText000b]
+Damage: 0
+Dmg Type: $10
+Effect Ptr: 4bca {
+    EFFECTCMDTYPE_INITIAL_EFFECT_1 :: $60b1
+    (2 invalid entries ignored)
+}
+Engine Flags: $72 $0b $ff
+Anim: $c8 [???]
+
+=== MrFujiCard (c6) ===
+
+Type: $10
+GFX Ptr: $4b08
+Text ID: $0b6e [MrFujiName]
+Rarity: $01
+Set: $22
+Card ID: $c6
+Max HP: 237
+Stage: $4e
+Pre-Evo Name Ptr: $0b6f [MrFujiDescription]
+
+MOVE 1
+
+Energy: $00 $00 $10 $69 {
+    FIGHTING: 1
+    COLORLESS: 6
+    UNUSED_POISON: 9
+}
+Atk Name Ptr: $704b [???]
+Atk Desc Ptr 1: $020b [FlyinPokemonDeckName]
+Atk Desc Ptr 2: $c730 [???]
+Damage: 69
+Dmg Type: $4f
+Effect Ptr: 0b71 {
+    (1 invalid entries ignored)
+}
+Engine Flags: $00 $00 $10
+Anim: $4b [ATK_ANIM_LULLABY]
+
+MOVE 2
+
+Energy: $72 $0b $ff $48 {
+    FIRE: 7
+    GRASS: 2
+    WATER: 11
+    FIGHTING: 15
+    PSYCHIC: 15
+    COLORLESS: 4
+    UNUSED_POISON: 8
+}
+Atk Name Ptr: $7cc8 [???]
+Atk Desc Ptr 1: $734e [???]
+Atk Desc Ptr 2: $000b [UnusedText000b]
+Damage: 0
+Dmg Type: $10
+Effect Ptr: 4c2b {
+    EFFECTCMDTYPE_INITIAL_EFFECT_1 :: $629a
+    (3 invalid entries ignored)
+}
+Engine Flags: $74 $0b $02
+Anim: $c9 [???]
+
+=== LassCard (c7) ===
+
+Type: $10
+GFX Ptr: $4b69
+Text ID: $0b70 [LassName]
+Rarity: $02
+Set: $30
+Card ID: $c7
+Max HP: 69
+Stage: $4f
+Pre-Evo Name Ptr: $0b71 [LassDescription]
+
+MOVE 1
+
+Energy: $00 $00 $10 $ca {
+    FIGHTING: 1
+    COLORLESS: 12
+    UNUSED_POISON: 10
+}
+Atk Name Ptr: $724b [???]
+Atk Desc Ptr 1: $ff0b [???]
+Atk Desc Ptr 2: $c848 [???]
+Damage: 124
+Dmg Type: $4e
+Effect Ptr: 0b73 {
+    (3 invalid entries ignored)
+}
+Engine Flags: $00 $00 $10
+Anim: $4c [ATK_ANIM_SUPERSONIC]
+
+MOVE 2
+
+Energy: $74 $0b $02 $10 {
+    FIRE: 7
+    GRASS: 4
+    WATER: 11
+    PSYCHIC: 2
+    COLORLESS: 1
+}
+Atk Name Ptr: $2ac9 [???]
+Atk Desc Ptr 1: $754f [???]
+Atk Desc Ptr 2: $000b [UnusedText000b]
+Damage: 0
+Dmg Type: $10
+Effect Ptr: 4c8c {
+    EFFECTCMDTYPE_BEFORE_DAMAGE :: $64fc
+    EFFECTCMDTYPE_AI :: $64f4
+    (0 invalid entries ignored)
+}
+Engine Flags: $76 $0b $02
+Anim: $ca [???]
+
+=== ImakuniCard (c8) ===
+
+Type: $10
+GFX Ptr: $4bca
+Text ID: $0b72 [ImakuniName]
+Rarity: $ff
+Set: $48
+Card ID: $c8
+Max HP: 124
+Stage: $4e
+Pre-Evo Name Ptr: $0b73 [ImakuniDescription]
+
+MOVE 1
+
+Energy: $00 $00 $10 $2b {
+    FIGHTING: 1
+    COLORLESS: 2
+    UNUSED_POISON: 11
+}
+Atk Name Ptr: $744c [???]
+Atk Desc Ptr 1: $020b [FlyinPokemonDeckName]
+Atk Desc Ptr 2: $c910 [???]
+Damage: 42
+Dmg Type: $4f
+Effect Ptr: 0b75 {
+    (1 invalid entries ignored)
+}
+Engine Flags: $00 $00 $10
+Anim: $4c [ATK_ANIM_SUPERSONIC]
+
+MOVE 2
+
+Energy: $76 $0b $02 $10 {
+    FIRE: 7
+    GRASS: 6
+    WATER: 11
+    PSYCHIC: 2
+    COLORLESS: 1
+}
+Atk Name Ptr: $16ca [???]
+Atk Desc Ptr 1: $774f [???]
+Atk Desc Ptr 2: $000b [UnusedText000b]
+Damage: 0
+Dmg Type: $10
+Effect Ptr: 4ced {
+    (0 invalid entries ignored)
+}
+Engine Flags: $78 $0b $02
+Anim: $cb [???]
+
+=== PokemonTraderCard (c9) ===
+
+Type: $10
+GFX Ptr: $4c2b
+Text ID: $0b74 [PokemonTraderName]
+Rarity: $02
+Set: $10
+Card ID: $c9
+Max HP: 42
+Stage: $4f
+Pre-Evo Name Ptr: $0b75 [PokemonTraderDescription]
+
+MOVE 1
+
+Energy: $00 $00 $10 $8c {
+    FIGHTING: 1
+    COLORLESS: 8
+    UNUSED_POISON: 12
+}
+Atk Name Ptr: $764c [???]
+Atk Desc Ptr 1: $020b [FlyinPokemonDeckName]
+Atk Desc Ptr 2: $ca10 [???]
+Damage: 22
+Dmg Type: $4f
+Effect Ptr: 0b77 {
+    (3 invalid entries ignored)
+}
+Engine Flags: $00 $00 $10
+Anim: $4c [ATK_ANIM_SUPERSONIC]
+
+MOVE 2
+
+Energy: $78 $0b $02 $10 {
+    FIRE: 7
+    GRASS: 8
+    WATER: 11
+    PSYCHIC: 2
+    COLORLESS: 1
+}
+Atk Name Ptr: $e6cb [???]
+Atk Desc Ptr 1: $794e [???]
+Atk Desc Ptr 2: $7a0b [???]
+Damage: 11
+Dmg Type: $10
+Effect Ptr: 4d4e {
+    (0 invalid entries ignored)
+}
+Engine Flags: $a1 $09 $00
+Anim: $cc [???]
+
+=== PokemonBreederCard (ca) ===
+
+Type: $10
+GFX Ptr: $4c8c
+Text ID: $0b76 [PokemonBreederName]
+Rarity: $02
+Set: $10
+Card ID: $ca
+Max HP: 22
+Stage: $4f
+Pre-Evo Name Ptr: $0b77 [PokemonBreederDescription]
+
+MOVE 1
+
+Energy: $00 $00 $10 $ed {
+    FIGHTING: 1
+    COLORLESS: 14
+    UNUSED_POISON: 13
+}
+Atk Name Ptr: $784c [???]
+Atk Desc Ptr 1: $020b [FlyinPokemonDeckName]
+Atk Desc Ptr 2: $cb10 [???]
+Damage: 230
+Dmg Type: $4e
+Effect Ptr: 0b79 {
+    (1 invalid entries ignored)
+}
+Engine Flags: $7a $0b $10
+Anim: $4d [ATK_ANIM_UNUSED_4D]
+
+MOVE 2
+
+Energy: $a1 $09 $00 $22 {
+    FIRE: 10
+    GRASS: 1
+    WATER: 9
+    COLORLESS: 2
+    UNUSED_POISON: 2
+}
+Atk Name Ptr: $c7cc [???]
+Atk Desc Ptr 1: $7b4e [???]
+Atk Desc Ptr 2: $7c0b [???]
+Damage: 11
+Dmg Type: $10
+Effect Ptr: 4daf {
+    EFFECTCMDTYPE_INITIAL_EFFECT_1 :: $6cf2
+    EFFECTCMDTYPE_INITIAL_EFFECT_2 :: $6cf5
+    EFFECTCMDTYPE_BEFORE_DAMAGE :: $6cfe
+    EFFECTCMDTYPE_AFTER_DAMAGE :: $6d01
+    EFFECTCMDTYPE_REQUIRE_SELECTION :: $6cf8
+    EFFECTCMDTYPE_AI_SELECTION :: $6cfb
+    EFFECTCMDTYPE_AI :: $6cef
+    (3 invalid entries ignored)
+}
+Engine Flags: $7d $0b $01
+Anim: $cd [???]
+
+=== ClefairyDollCard (cb) ===
+
+Type: $10
+GFX Ptr: $4ced
+Text ID: $0b78 [ClefairyDollName]
+Rarity: $02
+Set: $10
+Card ID: $cb
+Max HP: 230
+Stage: $4e
+Pre-Evo Name Ptr: $0b79 [ClefairyDollDescription]
+
+MOVE 1
+
+Energy: $7a $0b $10 $4e {
+    FIRE: 7
+    GRASS: 10
+    WATER: 11
+    FIGHTING: 1
+    COLORLESS: 4
+    UNUSED_POISON: 14
+}
+Atk Name Ptr: $a14d [???]
+Atk Desc Ptr 1: $0009 [ResistanceText]
+Atk Desc Ptr 2: $cc22 [???]
+Damage: 199
+Dmg Type: $4e
+Effect Ptr: 0b7b {
+    (1 invalid entries ignored)
+}
+Engine Flags: $7c $0b $10
+Anim: $4d [ATK_ANIM_UNUSED_4D]
+
+MOVE 2
+
+Energy: $7d $0b $01 $10 {
+    FIRE: 7
+    GRASS: 13
+    WATER: 11
+    PSYCHIC: 1
+    COLORLESS: 1
+}
+Atk Name Ptr: $8dcd [???]
+Atk Desc Ptr 1: $7e4e [???]
+Atk Desc Ptr 2: $000b [UnusedText000b]
+Damage: 0
+Dmg Type: $10
+Effect Ptr: 4e10 {
+    EFFECTCMDTYPE_INITIAL_EFFECT_1 :: $6e1f
+    EFFECTCMDTYPE_INITIAL_EFFECT_2 :: $6e31
+    EFFECTCMDTYPE_AFTER_DAMAGE :: $6e5e
+    EFFECTCMDTYPE_AI_SELECTION :: $6e3c
+    (3 invalid entries ignored)
+}
+Engine Flags: $7f $0b $ff
+Anim: $ce [???]
+
+=== MysteriousFossilCard (cc) ===
+
+Type: $10
+GFX Ptr: $4d4e
+Text ID: $09a1 [MysteriousFossilName]
+Rarity: $00
+Set: $22
+Card ID: $cc
+Max HP: 199
+Stage: $4e
+Pre-Evo Name Ptr: $0b7b [MysteriousFossilDescription]
+
+MOVE 1
+
+Energy: $7c $0b $10 $af {
+    FIRE: 7
+    GRASS: 12
+    WATER: 11
+    FIGHTING: 1
+    COLORLESS: 10
+    UNUSED_POISON: 15
+}
+Atk Name Ptr: $7d4d [???]
+Atk Desc Ptr 1: $010b [NoDamageOrEffectDueToNShieldText]
+Atk Desc Ptr 2: $cd10 [???]
+Damage: 141
+Dmg Type: $4e
+Effect Ptr: 0b7e {
+    (0 invalid entries ignored)
+}
+Engine Flags: $00 $00 $10
+Anim: $4e [ATK_ANIM_PETAL_DANCE]
+
+MOVE 2
+
+Energy: $7f $0b $ff $48 {
+    FIRE: 7
+    GRASS: 15
+    WATER: 11
+    FIGHTING: 15
+    PSYCHIC: 15
+    COLORLESS: 4
+    UNUSED_POISON: 8
+}
+Atk Name Ptr: $85ce [???]
+Atk Desc Ptr 1: $804f [???]
+Atk Desc Ptr 2: $000b [UnusedText000b]
+Damage: 0
+Dmg Type: $10
+Effect Ptr: 4e71 {
+    (0 invalid entries ignored)
+}
+Engine Flags: $81 $0b $00
+Anim: $cf [???]
+
+=== EnergyRetrievalCard (cd) ===
+
+Type: $10
+GFX Ptr: $4daf
+Text ID: $0b7d [EnergyRetrievalName]
+Rarity: $01
+Set: $10
+Card ID: $cd
+Max HP: 141
+Stage: $4e
+Pre-Evo Name Ptr: $0b7e [EnergyRetrievalDescription]
+
+MOVE 1
+
+Energy: $00 $00 $10 $10 {
+    FIGHTING: 1
+    COLORLESS: 1
+}
+Atk Name Ptr: $7f4e [???]
+Atk Desc Ptr 1: $ff0b [???]
+Atk Desc Ptr 2: $ce48 [???]
+Damage: 133
+Dmg Type: $4f
+Effect Ptr: 0b80 {
+    (0 invalid entries ignored)
+}
+Engine Flags: $00 $00 $10
+Anim: $4e [ATK_ANIM_PETAL_DANCE]
+
+MOVE 2
+
+Energy: $81 $0b $00 $12 {
+    FIRE: 8
+    GRASS: 1
+    WATER: 11
+    COLORLESS: 1
+    UNUSED_POISON: 2
+}
+Atk Name Ptr: $9acf [???]
+Atk Desc Ptr 1: $824e [???]
+Atk Desc Ptr 2: $000b [UnusedText000b]
+Damage: 0
+Dmg Type: $10
+Effect Ptr: 4ed2 {
+    EFFECTCMDTYPE_BEFORE_DAMAGE :: $74e1
+    (1 invalid entries ignored)
+}
+Engine Flags: $83 $0b $00
+Anim: $d0 [???]
+
+=== SuperEnergyRetrievalCard (ce) ===
+
+Type: $10
+GFX Ptr: $4e10
+Text ID: $0b7f [SuperEnergyRetrievalName]
+Rarity: $ff
+Set: $48
+Card ID: $ce
+Max HP: 133
+Stage: $4f
+Pre-Evo Name Ptr: $0b80 [SuperEnergyRetrievalDescription]
+
+MOVE 1
+
+Energy: $00 $00 $10 $71 {
+    FIGHTING: 1
+    COLORLESS: 7
+    UNUSED_POISON: 1
+}
+Atk Name Ptr: $814e [???]
+Atk Desc Ptr 1: $000b [UnusedText000b]
+Atk Desc Ptr 2: $cf12 [???]
+Damage: 154
+Dmg Type: $4e
+Effect Ptr: 0b82 {
+    (0 invalid entries ignored)
+}
+Engine Flags: $00 $00 $10
+Anim: $4e [ATK_ANIM_PETAL_DANCE]
+
+MOVE 2
+
+Energy: $83 $0b $00 $20 {
+    FIRE: 8
+    GRASS: 3
+    WATER: 11
+    COLORLESS: 2
+}
+Atk Name Ptr: $80d0 [???]
+Atk Desc Ptr 1: $844e [???]
+Atk Desc Ptr 2: $000b [UnusedText000b]
+Damage: 0
+Dmg Type: $10
+Effect Ptr: 4f33 {
+    EFFECTCMDTYPE_REQUIRE_SELECTION :: $7853
+    (0 invalid entries ignored)
+}
+Engine Flags: $85 $0b $02
+Anim: $d1 [???]
+
+=== EnergySearchCard (cf) ===
+
+Type: $10
+GFX Ptr: $4e71
+Text ID: $0b81 [EnergySearchName]
+Rarity: $00
+Set: $12
+Card ID: $cf
+Max HP: 154
+Stage: $4e
+Pre-Evo Name Ptr: $0b82 [EnergySearchDescription]
+
+MOVE 1
+
+Energy: $00 $00 $10 $d2 {
+    FIGHTING: 1
+    COLORLESS: 13
+    UNUSED_POISON: 2
+}
+Atk Name Ptr: $834e [???]
+Atk Desc Ptr 1: $000b [UnusedText000b]
+Atk Desc Ptr 2: $d020 [???]
+Damage: 128
+Dmg Type: $4e
+Effect Ptr: 0b84 {
+    (0 invalid entries ignored)
+}
+Engine Flags: $00 $00 $10
+Anim: $4f [ATK_ANIM_PROTECT]
+
+MOVE 2
+
+Energy: $85 $0b $02 $30 {
+    FIRE: 8
+    GRASS: 5
+    WATER: 11
+    PSYCHIC: 2
+    COLORLESS: 3
+}
+Atk Name Ptr: $7bd1 [???]
+Atk Desc Ptr 1: $864f [???]
+Atk Desc Ptr 2: $000b [UnusedText000b]
+Damage: 0
+Dmg Type: $10
+Effect Ptr: 4f94 {
+    (5 invalid entries ignored)
+}
+Engine Flags: $87 $0b $00
+Anim: $d2 [???]
+
+=== EnergyRemovalCard (d0) ===
+
+Type: $10
+GFX Ptr: $4ed2
+Text ID: $0b83 [EnergyRemovalName]
+Rarity: $00
+Set: $20
+Card ID: $d0
+Max HP: 128
+Stage: $4e
+Pre-Evo Name Ptr: $0b84 [EnergyRemovalDescription]
+
+MOVE 1
+
+Energy: $00 $00 $10 $33 {
+    FIGHTING: 1
+    COLORLESS: 3
+    UNUSED_POISON: 3
+}
+Atk Name Ptr: $854f [???]
+Atk Desc Ptr 1: $020b [FlyinPokemonDeckName]
+Atk Desc Ptr 2: $d130 [???]
+Damage: 123
+Dmg Type: $4f
+Effect Ptr: 0b86 {
+    (0 invalid entries ignored)
+}
+Engine Flags: $00 $00 $10
+Anim: $4f [ATK_ANIM_PROTECT]
+
+MOVE 2
+
+Energy: $87 $0b $00 $00 {
+    FIRE: 8
+    GRASS: 7
+    WATER: 11
+}
+Atk Name Ptr: $fbd2 [???]
+Atk Desc Ptr 1: $884e [???]
+Atk Desc Ptr 2: $000b [UnusedText000b]
+Damage: 0
+Dmg Type: $10
+Effect Ptr: 5000 {
+    EFFECTCMDTYPE_INITIAL_EFFECT_1 :: $1ac9
+    EFFECTCMDTYPE_REQUIRE_SELECTION :: $983e
+    EFFECTCMDTYPE_AI :: $fecc
+    (35 invalid entries ignored)
+}
+Engine Flags: $89 $0b $01
+Anim: $d3 [???]
+
+=== SuperEnergyRemovalCard (d1) ===
+
+Type: $10
+GFX Ptr: $4f33
+Text ID: $0b85 [SuperEnergyRemovalName]
+Rarity: $02
+Set: $30
+Card ID: $d1
+Max HP: 123
+Stage: $4f
+Pre-Evo Name Ptr: $0b86 [SuperEnergyRemovalDescription]
+
+MOVE 1
+
+Energy: $00 $00 $10 $94 {
+    FIGHTING: 1
+    COLORLESS: 9
+    UNUSED_POISON: 4
+}
+Atk Name Ptr: $874f [???]
+Atk Desc Ptr 1: $000b [UnusedText000b]
+Atk Desc Ptr 2: $d200 [???]
+Damage: 251
+Dmg Type: $4e
+Effect Ptr: 0b88 {
+    (0 invalid entries ignored)
+}
+Engine Flags: $00 $00 $10
+Anim: $50 [ATK_ANIM_BARRIER]
+
+MOVE 2
+
+Energy: $89 $0b $01 $20 {
+    FIRE: 8
+    GRASS: 9
+    WATER: 11
+    PSYCHIC: 1
+    COLORLESS: 2
+}
+Atk Name Ptr: $05d3 [Text05d3]
+Atk Desc Ptr 1: $8a4f [???]
+Atk Desc Ptr 2: $000b [UnusedText000b]
+Damage: 0
+Dmg Type: $10
+Effect Ptr: 5061 {
+    EFFECTCMDTYPE_AI :: $01fe
+    EFFECTCMDTYPE_REQUIRE_SELECTION :: $67cc
+    EFFECTCMDTYPE_AFTER_DAMAGE :: $c226
+    EFFECTCMDTYPE_INITIAL_EFFECT_1 :: $0e18
+    (48 invalid entries ignored)
+}
+Engine Flags: $8b $0b $00
+Anim: $d4 [???]
+
+=== SwitchCard (d2) ===
+
+Type: $10
+GFX Ptr: $4f94
+Text ID: $0b87 [SwitchName]
+Rarity: $00
+Set: $00
+Card ID: $d2
+Max HP: 251
+Stage: $4e
+Pre-Evo Name Ptr: $0b88 [SwitchDescription]
+
+MOVE 1
+
+Energy: $00 $00 $10 $00 {
+    FIGHTING: 1
+}
+Atk Name Ptr: $8950 [???]
+Atk Desc Ptr 1: $010b [NoDamageOrEffectDueToNShieldText]
+Atk Desc Ptr 2: $d320 [???]
+Damage: 5
+Dmg Type: $4f
+Effect Ptr: 0b8a {
+    (2 invalid entries ignored)
+}
+Engine Flags: $00 $00 $10
+Anim: $50 [ATK_ANIM_BARRIER]
+
+MOVE 2
+
+Energy: $8b $0b $00 $01 {
+    FIRE: 8
+    GRASS: 11
+    WATER: 11
+    UNUSED_POISON: 1
+}
+Atk Name Ptr: $53d4 [???]
+Atk Desc Ptr 1: $8c4f [???]
+Atk Desc Ptr 2: $000b [UnusedText000b]
+Damage: 0
+Dmg Type: $10
+Effect Ptr: 50c2 {
+    EFFECTCMDTYPE_INITIAL_EFFECT_1 :: $1618
+    EFFECTCMDTYPE_REQUIRE_SELECTION :: $c326
+    EFFECTCMDTYPE_DISCARD_ENERGY :: $052e
+    EFFECTCMDTYPE_INITIAL_EFFECT_2 :: $aeea
+    EFFECTCMDTYPE_AFTER_DAMAGE :: $1428
+    EFFECTCMDTYPE_BEFORE_DAMAGE :: $9ddf
+    (40 invalid entries ignored)
+}
+Engine Flags: $8d $0b $02
+Anim: $d5 [???]
+
+=== PokemonCenterCard (d3) ===
+
+Type: $10
+GFX Ptr: $5000
+Text ID: $0b89 [PokemonCenterName]
+Rarity: $01
+Set: $20
+Card ID: $d3
+Max HP: 5
+Stage: $4f
+Pre-Evo Name Ptr: $0b8a [PokemonCenterDescription]
+
+MOVE 1
+
+Energy: $00 $00 $10 $61 {
+    FIGHTING: 1
+    COLORLESS: 6
+    UNUSED_POISON: 1
+}
+Atk Name Ptr: $8b50 [???]
+Atk Desc Ptr 1: $000b [UnusedText000b]
+Atk Desc Ptr 2: $d401 [???]
+Damage: 83
+Dmg Type: $4f
+Effect Ptr: 0b8c {
+    (0 invalid entries ignored)
+}
+Engine Flags: $00 $00 $10
+Anim: $50 [ATK_ANIM_BARRIER]
+
+MOVE 2
+
+Energy: $8d $0b $02 $00 {
+    FIRE: 8
+    GRASS: 13
+    WATER: 11
+    PSYCHIC: 2
+}
+Atk Name Ptr: $20d5 [???]
+Atk Desc Ptr 1: $8e4f [???]
+Atk Desc Ptr 2: $000b [UnusedText000b]
+Damage: 0
+Dmg Type: $10
+Effect Ptr: 5123 {
+    (27 invalid entries ignored)
+}
+Engine Flags: $8f $0b $02
+Anim: $d6 [???]
+
+=== PokeBallCard (d4) ===
+
+Type: $10
+GFX Ptr: $5061
+Text ID: $0b8b [PokeBallName]
+Rarity: $00
+Set: $01
+Card ID: $d4
+Max HP: 83
+Stage: $4f
+Pre-Evo Name Ptr: $0b8c [PokeBallDescription]
+
+MOVE 1
+
+Energy: $00 $00 $10 $c2 {
+    FIGHTING: 1
+    COLORLESS: 12
+    UNUSED_POISON: 2
+}
+Atk Name Ptr: $8d50 [???]
+Atk Desc Ptr 1: $020b [FlyinPokemonDeckName]
+Atk Desc Ptr 2: $d500 [???]
+Damage: 32
+Dmg Type: $4f
+Effect Ptr: 0b8e {
+    (0 invalid entries ignored)
+}
+Engine Flags: $00 $00 $10
+Anim: $51 [ATK_ANIM_QUICK_ATTACK]
+
+MOVE 2
+
+Energy: $8f $0b $02 $00 {
+    FIRE: 8
+    GRASS: 15
+    WATER: 11
+    PSYCHIC: 2
+}
+Atk Name Ptr: $d9d6 [???]
+Atk Desc Ptr 1: $904e [???]
+Atk Desc Ptr 2: $000b [UnusedText000b]
+Damage: 0
+Dmg Type: $10
+Effect Ptr: 5184 {
+    EFFECTCMDTYPE_AFTER_DAMAGE :: $21c8
+    (10 invalid entries ignored)
+}
+Engine Flags: $91 $0b $01
+Anim: $d7 [???]
+
+=== ScoopUpCard (d5) ===
+
+Type: $10
+GFX Ptr: $50c2
+Text ID: $0b8d [ScoopUpName]
+Rarity: $02
+Set: $00
+Card ID: $d5
+Max HP: 32
+Stage: $4f
+Pre-Evo Name Ptr: $0b8e [ScoopUpDescription]
+
+MOVE 1
+
+Energy: $00 $00 $10 $23 {
+    FIGHTING: 1
+    COLORLESS: 2
+    UNUSED_POISON: 3
+}
+Atk Name Ptr: $8f51 [???]
+Atk Desc Ptr 1: $020b [FlyinPokemonDeckName]
+Atk Desc Ptr 2: $d600 [???]
+Damage: 217
+Dmg Type: $4e
+Effect Ptr: 0b90 {
+    (0 invalid entries ignored)
+}
+Engine Flags: $00 $00 $10
+Anim: $51 [ATK_ANIM_QUICK_ATTACK]
+
+MOVE 2
+
+Energy: $91 $0b $01 $30 {
+    FIRE: 9
+    GRASS: 1
+    WATER: 11
+    PSYCHIC: 1
+    COLORLESS: 3
+}
+Atk Name Ptr: $37d7 [???]
+Atk Desc Ptr 1: $924f [???]
+Atk Desc Ptr 2: $000b [UnusedText000b]
+Damage: 0
+Dmg Type: $10
+Effect Ptr: 51e5 {
+    EFFECTCMDTYPE_PKMN_POWER_TRIGGER :: $0a56
+    EFFECTCMDTYPE_INITIAL_EFFECT_2 :: $0301
+    EFFECTCMDTYPE_BEFORE_DAMAGE :: $0009
+    EFFECTCMDTYPE_AI_SELECTION :: $fb01
+    EFFECTCMDTYPE_AI_SWITCH_DEFENDING_PKMN :: $0703
+    EFFECTCMDTYPE_INITIAL_EFFECT_1 :: $03fa
+    EFFECTCMDTYPE_AI :: $0200
+    (76 invalid entries ignored)
+}
+Engine Flags: $93 $0b $01
+Anim: $d8 [???]
+
+=== ComputerSearchCard (d6) ===
+
+Type: $10
+GFX Ptr: $5123
+Text ID: $0b8f [ComputerSearchName]
+Rarity: $02
+Set: $00
+Card ID: $d6
+Max HP: 217
+Stage: $4e
+Pre-Evo Name Ptr: $0b90 [ComputerSearchDescription]
+
+MOVE 1
+
+Energy: $00 $00 $10 $84 {
+    FIGHTING: 1
+    COLORLESS: 8
+    UNUSED_POISON: 4
+}
+Atk Name Ptr: $9151 [???]
+Atk Desc Ptr 1: $010b [NoDamageOrEffectDueToNShieldText]
+Atk Desc Ptr 2: $d730 [???]
+Damage: 55
+Dmg Type: $4f
+Effect Ptr: 0b92 {
+    (0 invalid entries ignored)
+}
+Engine Flags: $00 $00 $10
+Anim: $51 [ATK_ANIM_QUICK_ATTACK]
+
+MOVE 2
+
+Energy: $93 $0b $01 $00 {
+    FIRE: 9
+    GRASS: 3
+    WATER: 11
+    PSYCHIC: 1
+}
+Atk Name Ptr: $f7d8 [???]
+Atk Desc Ptr 1: $944e [???]
+Atk Desc Ptr 2: $000b [UnusedText000b]
+Damage: 0
+Dmg Type: $10
+Effect Ptr: 5246 {
+    EFFECTCMDTYPE_AFTER_DAMAGE :: $1355
+    EFFECTCMDTYPE_INITIAL_EFFECT_1 :: $0703
+    EFFECTCMDTYPE_AI :: $0200
+    EFFECTCMDTYPE_BEFORE_DAMAGE :: $0107
+    (42 invalid entries ignored)
+}
+Engine Flags: $95 $0b $01
+Anim: $d9 [???]
+
+=== PokedexCard (d7) ===
+
+Type: $10
+GFX Ptr: $5184
+Text ID: $0b91 [PokedexName]
+Rarity: $01
+Set: $30
+Card ID: $d7
+Max HP: 55
+Stage: $4f
+Pre-Evo Name Ptr: $0b92 [PokedexDescription]
+
+MOVE 1
+
+Energy: $00 $00 $10 $e5 {
+    FIGHTING: 1
+    COLORLESS: 14
+    UNUSED_POISON: 5
+}
+Atk Name Ptr: $9351 [???]
+Atk Desc Ptr 1: $010b [NoDamageOrEffectDueToNShieldText]
+Atk Desc Ptr 2: $d800 [???]
+Damage: 247
+Dmg Type: $4e
+Effect Ptr: 0b94 {
+    (0 invalid entries ignored)
+}
+Engine Flags: $00 $00 $10
+Anim: $52 [ATK_ANIM_AGILITY_PROTECT]
+
+MOVE 2
+
+Energy: $95 $0b $01 $00 {
+    FIRE: 9
+    GRASS: 5
+    WATER: 11
+    PSYCHIC: 1
+}
+Atk Name Ptr: $c0d9 [???]
+Atk Desc Ptr 1: $964e [???]
+Atk Desc Ptr 2: $000b [UnusedText000b]
+Damage: 0
+Dmg Type: $10
+Effect Ptr: 52a7 {
+    EFFECTCMDTYPE_BEFORE_DAMAGE :: $0107
+    (12 invalid entries ignored)
+}
+Engine Flags: $97 $0b $02
+Anim: $da [???]
+
+=== PlusPowerCard (d8) ===
+
+Type: $10
+GFX Ptr: $51e5
+Text ID: $0b93 [PlusPowerName]
+Rarity: $01
+Set: $00
+Card ID: $d8
+Max HP: 247
+Stage: $4e
+Pre-Evo Name Ptr: $0b94 [PlusPowerDescription]
+
+MOVE 1
+
+Energy: $00 $00 $10 $46 {
+    FIGHTING: 1
+    COLORLESS: 4
+    UNUSED_POISON: 6
+}
+Atk Name Ptr: $9552 [???]
+Atk Desc Ptr 1: $010b [NoDamageOrEffectDueToNShieldText]
+Atk Desc Ptr 2: $d900 [???]
+Damage: 192
+Dmg Type: $4e
+Effect Ptr: 0b96 {
+    EFFECTCMDTYPE_BEFORE_DAMAGE :: $03fe
+    (7 invalid entries ignored)
+}
+Engine Flags: $00 $00 $10
+Anim: $52 [ATK_ANIM_AGILITY_PROTECT]
+
+MOVE 2
+
+Energy: $97 $0b $02 $00 {
+    FIRE: 9
+    GRASS: 7
+    WATER: 11
+    PSYCHIC: 2
+}
+Atk Name Ptr: $b6da [???]
+Atk Desc Ptr 1: $984e [???]
+Atk Desc Ptr 2: $000b [UnusedText000b]
+Damage: 0
+Dmg Type: $10
+Effect Ptr: 5308 {
+    EFFECTCMDTYPE_INITIAL_EFFECT_2 :: $0301
+    EFFECTCMDTYPE_INITIAL_EFFECT_1 :: $03fa
+    EFFECTCMDTYPE_AI :: $0200
+    EFFECTCMDTYPE_BEFORE_DAMAGE :: $0107
+    (2 invalid entries ignored)
+}
+Engine Flags: $99 $0b $00
+Anim: $db [???]
+
+=== DefenderCard (d9) ===
+
+Type: $10
+GFX Ptr: $5246
+Text ID: $0b95 [DefenderName]
+Rarity: $01
+Set: $00
+Card ID: $d9
+Max HP: 192
+Stage: $4e
+Pre-Evo Name Ptr: $0b96 [DefenderDescription]
+
+MOVE 1
+
+Energy: $00 $00 $10 $a7 {
+    FIGHTING: 1
+    COLORLESS: 10
+    UNUSED_POISON: 7
+}
+Atk Name Ptr: $9752 [???]
+Atk Desc Ptr 1: $020b [FlyinPokemonDeckName]
+Atk Desc Ptr 2: $da00 [???]
+Damage: 182
+Dmg Type: $4e
+Effect Ptr: 0b98 {
+    EFFECTCMDTYPE_BEFORE_DAMAGE :: $0820
+    (6 invalid entries ignored)
+}
+Engine Flags: $00 $00 $10
+Anim: $53 [ATK_ANIM_WHIRLWIND]
+
+MOVE 2
+
+Energy: $99 $0b $00 $10 {
+    FIRE: 9
+    GRASS: 9
+    WATER: 11
+    COLORLESS: 1
+}
+Atk Name Ptr: $92db [???]
+Atk Desc Ptr 1: $9a4f [???]
+Atk Desc Ptr 2: $000b [UnusedText000b]
+Damage: 0
+Dmg Type: $10
+Effect Ptr: 5369 {
+    (1 invalid entries ignored)
+}
+Engine Flags: $9b $0b $02
+Anim: $dc [???]
+
+=== ItemFinderCard (da) ===
+
+Type: $10
+GFX Ptr: $52a7
+Text ID: $0b97 [ItemFinderName]
+Rarity: $02
+Set: $00
+Card ID: $da
+Max HP: 182
+Stage: $4e
+Pre-Evo Name Ptr: $0b98 [ItemFinderDescription]
+
+MOVE 1
+
+Energy: $00 $00 $10 $08 {
+    FIGHTING: 1
+    UNUSED_POISON: 8
+}
+Atk Name Ptr: $9953 [???]
+Atk Desc Ptr 1: $000b [UnusedText000b]
+Atk Desc Ptr 2: $db10 [???]
+Damage: 146
+Dmg Type: $4f
+Effect Ptr: 0b9a {
+    EFFECTCMDTYPE_AI_SELECTION :: $ab21
+    (5 invalid entries ignored)
+}
+Engine Flags: $00 $00 $10
+Anim: $53 [ATK_ANIM_WHIRLWIND]
+
+MOVE 2
+
+Energy: $9b $0b $02 $30 {
+    FIRE: 9
+    GRASS: 11
+    WATER: 11
+    PSYCHIC: 2
+    COLORLESS: 3
+}
+Atk Name Ptr: $71dc [???]
+Atk Desc Ptr 1: $9c4f [???]
+Atk Desc Ptr 2: $9d0b [???]
+Damage: 11
+Dmg Type: $10
+Effect Ptr: 53ca {
+    EFFECTCMDTYPE_PKMN_POWER_TRIGGER :: $fa01
+    EFFECTCMDTYPE_BEFORE_DAMAGE :: $0009
+    EFFECTCMDTYPE_INITIAL_EFFECT_2 :: $0201
+    EFFECTCMDTYPE_INITIAL_EFFECT_1 :: $2103
+    (2 invalid entries ignored)
+}
+Engine Flags: $9e $0b $00
+Anim: $dd [???]
+
+=== GustOfWindCard (db) ===
+
+Type: $10
+GFX Ptr: $5308
+Text ID: $0b99 [GustOfWindName]
+Rarity: $00
+Set: $10
+Card ID: $db
+Max HP: 146
+Stage: $4f
+Pre-Evo Name Ptr: $0b9a [GustOfWindDescription]
+
+MOVE 1
+
+Energy: $00 $00 $10 $69 {
+    FIGHTING: 1
+    COLORLESS: 6
+    UNUSED_POISON: 9
+}
+Atk Name Ptr: $9b53 [???]
+Atk Desc Ptr 1: $020b [FlyinPokemonDeckName]
+Atk Desc Ptr 2: $dc30 [???]
+Damage: 113
+Dmg Type: $4f
+Effect Ptr: 0b9c {
+    (6 invalid entries ignored)
+}
+Engine Flags: $9d $0b $10
+Anim: $53 [ATK_ANIM_WHIRLWIND]
+
+MOVE 2
+
+Energy: $9e $0b $00 $00 {
+    FIRE: 9
+    GRASS: 14
+    WATER: 11
+}
+Atk Name Ptr: $a8dd [???]
+Atk Desc Ptr 1: $9f4e [???]
+Atk Desc Ptr 2: $000b [UnusedText000b]
+Damage: 0
+Dmg Type: $10
+Effect Ptr: 542b {
+    EFFECTCMDTYPE_AI :: $0200
+    EFFECTCMDTYPE_INITIAL_EFFECT_1 :: $2903
+    EFFECTCMDTYPE_BEFORE_DAMAGE :: $0107
+    (1 invalid entries ignored)
+}
+Engine Flags: $a0 $0b $01
+Anim: $de [???]
+
+=== DevolutionSprayCard (dc) ===
+
+Type: $10
+GFX Ptr: $5369
+Text ID: $0b9b [DevolutionSprayName]
+Rarity: $02
+Set: $30
+Card ID: $dc
+Max HP: 113
+Stage: $4f
+Pre-Evo Name Ptr: $0b9c [DevolutionSprayDescription]
+
+MOVE 1
+
+Energy: $9d $0b $10 $ca {
+    FIRE: 9
+    GRASS: 13
+    WATER: 11
+    FIGHTING: 1
+    COLORLESS: 12
+    UNUSED_POISON: 10
+}
+Atk Name Ptr: $9e53 [???]
+Atk Desc Ptr 1: $000b [UnusedText000b]
+Atk Desc Ptr 2: $dd00 [???]
+Damage: 168
+Dmg Type: $4e
+Effect Ptr: 0b9f {
+    (5 invalid entries ignored)
+}
+Engine Flags: $00 $00 $10
+Anim: $54 [ATK_ANIM_CRY]
+
+MOVE 2
+
+Energy: $a0 $0b $01 $10 {
+    FIRE: 10
+    WATER: 11
+    PSYCHIC: 1
+    COLORLESS: 1
+}
+Atk Name Ptr: $72de [???]
+Atk Desc Ptr 1: $a14e [???]
+Atk Desc Ptr 2: $000b [UnusedText000b]
+Damage: 0
+Dmg Type: $10
+Effect Ptr: 548c {
+    EFFECTCMDTYPE_INITIAL_EFFECT_1 :: $0066
+    EFFECTCMDTYPE_INITIAL_EFFECT_2 :: $0101
+    EFFECTCMDTYPE_BEFORE_DAMAGE :: $0107
+    (2 invalid entries ignored)
+}
+Engine Flags: $a2 $0b $01
+Anim: $df [???]
+
+=== PotionCard (dd) ===
+
+Type: $10
+GFX Ptr: $53ca
+Text ID: $0b9e [PotionName]
+Rarity: $00
+Set: $00
+Card ID: $dd
+Max HP: 168
+Stage: $4e
+Pre-Evo Name Ptr: $0b9f [PotionDescription]
+
+MOVE 1
+
+Energy: $00 $00 $10 $2b {
+    FIGHTING: 1
+    COLORLESS: 2
+    UNUSED_POISON: 11
+}
+Atk Name Ptr: $a054 [???]
+Atk Desc Ptr 1: $010b [NoDamageOrEffectDueToNShieldText]
+Atk Desc Ptr 2: $de10 [???]
+Damage: 114
+Dmg Type: $4e
+Effect Ptr: 0ba1 {
+    (4 invalid entries ignored)
+}
+Engine Flags: $00 $00 $10
+Anim: $54 [ATK_ANIM_CRY]
+
+MOVE 2
+
+Energy: $a2 $0b $01 $00 {
+    FIRE: 10
+    GRASS: 2
+    WATER: 11
+    PSYCHIC: 1
+}
+Atk Name Ptr: $cedf [???]
+Atk Desc Ptr 1: $a34e [???]
+Atk Desc Ptr 2: $000b [UnusedText000b]
+Damage: 0
+Dmg Type: $10
+Effect Ptr: 54ed {
+    EFFECTCMDTYPE_INITIAL_EFFECT_2 :: $013a
+    EFFECTCMDTYPE_INITIAL_EFFECT_1 :: $fa01
+    EFFECTCMDTYPE_BEFORE_DAMAGE :: $003b
+    EFFECTCMDTYPE_AI :: $0200
+    (4 invalid entries ignored)
+}
+Engine Flags: $a4 $0b $01
+Anim: $e0 [???]
+
+=== SuperPotionCard (de) ===
+
+Type: $10
+GFX Ptr: $542b
+Text ID: $0ba0 [SuperPotionName]
+Rarity: $01
+Set: $10
+Card ID: $de
+Max HP: 114
+Stage: $4e
+Pre-Evo Name Ptr: $0ba1 [SuperPotionDescription]
+
+MOVE 1
+
+Energy: $00 $00 $10 $8c {
+    FIGHTING: 1
+    COLORLESS: 8
+    UNUSED_POISON: 12
+}
+Atk Name Ptr: $a254 [???]
+Atk Desc Ptr 1: $010b [NoDamageOrEffectDueToNShieldText]
+Atk Desc Ptr 2: $df00 [???]
+Damage: 206
+Dmg Type: $4e
+Effect Ptr: 0ba3 {
+    (3 invalid entries ignored)
+}
+Engine Flags: $00 $00 $10
+Anim: $54 [ATK_ANIM_CRY]
+
+MOVE 2
+
+Energy: $a4 $0b $01 $00 {
+    FIRE: 10
+    GRASS: 4
+    WATER: 11
+    PSYCHIC: 1
+}
+Atk Name Ptr: $67e0 [???]
+Atk Desc Ptr 1: $a54f [???]
+Atk Desc Ptr 2: $000b [UnusedText000b]
+Damage: 0
+Dmg Type: $10
+Effect Ptr: 554e {
+    EFFECTCMDTYPE_INITIAL_EFFECT_1 :: $0565
+    (1 invalid entries ignored)
+}
+Engine Flags: $a6 $0b $01
+Anim: $e1 [???]
+
+=== FullHealCard (df) ===
+
+Type: $10
+GFX Ptr: $548c
+Text ID: $0ba2 [FullHealName]
+Rarity: $01
+Set: $00
+Card ID: $df
+Max HP: 206
+Stage: $4e
+Pre-Evo Name Ptr: $0ba3 [FullHealDescription]
+
+MOVE 1
+
+Energy: $00 $00 $10 $ed {
+    FIGHTING: 1
+    COLORLESS: 14
+    UNUSED_POISON: 13
+}
+Atk Name Ptr: $a454 [???]
+Atk Desc Ptr 1: $010b [NoDamageOrEffectDueToNShieldText]
+Atk Desc Ptr 2: $e000 [???]
+Damage: 103
+Dmg Type: $4f
+Effect Ptr: 0ba5 {
+    (3 invalid entries ignored)
+}
+Engine Flags: $00 $00 $10
+Anim: $55 [ATK_ANIM_AMNESIA]
+
+MOVE 2
+
+Energy: $a6 $0b $01 $30 {
+    FIRE: 10
+    GRASS: 6
+    WATER: 11
+    PSYCHIC: 1
+    COLORLESS: 3
+}
+Atk Name Ptr: $49e1 [???]
+Atk Desc Ptr 1: $a74f [???]
+Atk Desc Ptr 2: $000b [UnusedText000b]
+Damage: 0
+Dmg Type: $10
+Effect Ptr: 55af {
+    EFFECTCMDTYPE_INITIAL_EFFECT_1 :: $03fa
+    EFFECTCMDTYPE_AI :: $0200
+    EFFECTCMDTYPE_BEFORE_DAMAGE :: $0107
+    (1 invalid entries ignored)
+}
+Engine Flags: $a8 $0b $01
+Anim: $e2 [???]
+
+=== ReviveCard (e0) ===
+
+Type: $10
+GFX Ptr: $54ed
+Text ID: $0ba4 [ReviveName]
+Rarity: $01
+Set: $00
+Card ID: $e0
+Max HP: 103
+Stage: $4f
+Pre-Evo Name Ptr: $0ba5 [ReviveDescription]
+
+MOVE 1
+
+Energy: $00 $00 $10 $4e {
+    FIGHTING: 1
+    COLORLESS: 4
+    UNUSED_POISON: 14
+}
+Atk Name Ptr: $a655 [???]
+Atk Desc Ptr 1: $010b [NoDamageOrEffectDueToNShieldText]
+Atk Desc Ptr 2: $e130 [???]
+Damage: 73
+Dmg Type: $4f
+Effect Ptr: 0ba7 {
+    (2 invalid entries ignored)
+}
+Engine Flags: $00 $00 $10
+Anim: $55 [ATK_ANIM_AMNESIA]
+
+MOVE 2
+
+Energy: $a8 $0b $01 $10 {
+    FIRE: 10
+    GRASS: 8
+    WATER: 11
+    PSYCHIC: 1
+    COLORLESS: 1
+}
+Atk Name Ptr: $0ce2 [???]
+Atk Desc Ptr 1: $a94f [???]
+Atk Desc Ptr 2: $000b [UnusedText000b]
+Damage: 0
+Dmg Type: $10
+Effect Ptr: 5610 {
+    EFFECTCMDTYPE_AFTER_DAMAGE :: $4405
+    EFFECTCMDTYPE_REQUIRE_SELECTION :: $0107
+    (2 invalid entries ignored)
+}
+Engine Flags: $aa $0b $00
+Anim: $e3 [???]
+
+=== MaintenanceCard (e1) ===
+
+Type: $10
+GFX Ptr: $554e
+Text ID: $0ba6 [MaintenanceName]
+Rarity: $01
+Set: $30
+Card ID: $e1
+Max HP: 73
+Stage: $4f
+Pre-Evo Name Ptr: $0ba7 [MaintenanceDescription]
+
+MOVE 1
+
+Energy: $00 $00 $10 $af {
+    FIGHTING: 1
+    COLORLESS: 10
+    UNUSED_POISON: 15
+}
+Atk Name Ptr: $a855 [???]
+Atk Desc Ptr 1: $010b [NoDamageOrEffectDueToNShieldText]
+Atk Desc Ptr 2: $e210 [???]
+Damage: 12
+Dmg Type: $4f
+Effect Ptr: 0ba9 {
+    (1 invalid entries ignored)
+}
+Engine Flags: $00 $00 $10
+Anim: $56 [ATK_ANIM_SELFDESTRUCT]
+
+MOVE 2
+
+Energy: $aa $0b $00 $32 {
+    FIRE: 10
+    GRASS: 10
+    WATER: 11
+    COLORLESS: 3
+    UNUSED_POISON: 2
+}
+Atk Name Ptr: $b2e3 [???]
+Atk Desc Ptr 1: $ab4e [???]
+Atk Desc Ptr 2: $000b [UnusedText000b]
+Damage: 0
+Dmg Type: $10
+Effect Ptr: 5671 {
+    (9 invalid entries ignored)
+}
+Engine Flags: $ac $0b $00
+Anim: $e4 [???]
+
+=== PokemonFluteCard (e2) ===
+
+Type: $10
+GFX Ptr: $55af
+Text ID: $0ba8 [PokemonFluteName]
+Rarity: $01
+Set: $10
+Card ID: $e2
+Max HP: 12
+Stage: $4f
+Pre-Evo Name Ptr: $0ba9 [PokemonFluteDescription]
+
+MOVE 1
+
+Energy: $00 $00 $10 $10 {
+    FIGHTING: 1
+    COLORLESS: 1
+}
+Atk Name Ptr: $aa56 [???]
+Atk Desc Ptr 1: $000b [UnusedText000b]
+Atk Desc Ptr 2: $e332 [???]
+Damage: 178
+Dmg Type: $4e
+Effect Ptr: 0bab {
+    (1 invalid entries ignored)
+}
+Engine Flags: $00 $00 $10
+Anim: $56 [ATK_ANIM_SELFDESTRUCT]
+
+MOVE 2
+
+Energy: $ac $0b $00 $32 {
+    FIRE: 10
+    GRASS: 12
+    WATER: 11
+    COLORLESS: 3
+    UNUSED_POISON: 2
+}
+Atk Name Ptr: $5de4 [???]
+Atk Desc Ptr 1: $ad4f [???]
+Atk Desc Ptr 2: $000b [UnusedText000b]
+Damage: 0
+Dmg Type: $ff
+Effect Ptr: ffff {
+    IN REWRITABLE MEMORY
+}
+Engine Flags: $ff $ff $ff
+Anim: $ff [???]
+
+=== GamblerCard (e3) ===
+
+Type: $10
+GFX Ptr: $5610
+Text ID: $0baa [GamblerName]
+Rarity: $00
+Set: $32
+Card ID: $e3
+Max HP: 178
+Stage: $4e
+Pre-Evo Name Ptr: $0bab [GamblerDescription]
+
+MOVE 1
+
+Energy: $00 $00 $10 $71 {
+    FIGHTING: 1
+    COLORLESS: 7
+    UNUSED_POISON: 1
+}
+Atk Name Ptr: $ac56 [???]
+Atk Desc Ptr 1: $000b [UnusedText000b]
+Atk Desc Ptr 2: $e432 [???]
+Damage: 93
+Dmg Type: $4f
+Effect Ptr: 0bad {
+    (0 invalid entries ignored)
+}
+Engine Flags: $00 $00 $ff
+Anim: $ff [???]
+
+MOVE 2
+
+Energy: $ff $ff $ff $ff {
+    FIRE: 15
+    GRASS: 15
+    LIGHTNING: 15
+    WATER: 15
+    FIGHTING: 15
+    PSYCHIC: 15
+    COLORLESS: 15
+    UNUSED_POISON: 15
+}
+Atk Name Ptr: $ffff [???]
+Atk Desc Ptr 1: $ffff [???]
+Atk Desc Ptr 2: $ffff [???]
+Damage: 255
+Dmg Type: $ff
+Effect Ptr: ffff {
+    IN REWRITABLE MEMORY
+}
+Engine Flags: $ff $ff $ff
+Anim: $ff [???]
+
+=== RecycleCard (e4) ===
+
+Type: $10
+GFX Ptr: $5671
+Text ID: $0bac [RecycleName]
+Rarity: $00
+Set: $32
+Card ID: $e4
+Max HP: 93
+Stage: $4f
+Pre-Evo Name Ptr: $0bad [RecycleDescription]
+
+MOVE 1
+
+Energy: $00 $00 $ff $ff {
+    FIGHTING: 15
+    PSYCHIC: 15
+    COLORLESS: 15
+    UNUSED_POISON: 15
+}
+Atk Name Ptr: $ffff [???]
+Atk Desc Ptr 1: $ffff [???]
+Atk Desc Ptr 2: $ffff [???]
+Damage: 255
+Dmg Type: $ff
+Effect Ptr: ffff {
+    IN REWRITABLE MEMORY
+}
+Engine Flags: $ff $ff $ff
+Anim: $ff [???]
+
+MOVE 2
+
+Energy: $ff $ff $ff $ff {
+    FIRE: 15
+    GRASS: 15
+    LIGHTNING: 15
+    WATER: 15
+    FIGHTING: 15
+    PSYCHIC: 15
+    COLORLESS: 15
+    UNUSED_POISON: 15
+}
+Atk Name Ptr: $ffff [???]
+Atk Desc Ptr 1: $ffff [???]
+Atk Desc Ptr 2: $ffff [???]
+Damage: 255
+Dmg Type: $ff
+Effect Ptr: ffff {
+    IN REWRITABLE MEMORY
+}
+Engine Flags: $00 $00 $00
+Anim: $23 [ATK_ANIM_THUNDERPUNCH]
+
